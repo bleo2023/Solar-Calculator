@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    color: royalblue;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.795);
+    margin-bottom: 10px;
+}
+
+img{
+    width: 350px;
+}
+legend{
+    color: midnightblue;
+    font-weight: bold;
+}
+button{
+    background-color: royalblue;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
